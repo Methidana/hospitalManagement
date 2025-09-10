@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+main{
+    background: rgb(200, 227, 250);
+}
+#head{
+    width: 100%;
+    position: fixed;
+}
+
+.navbar{
+    background: #020024;
+background: linear-gradient(1deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 24%, rgba(0, 212, 255, 1) 95%);
+   box-shadow: #0093AF;
+   opacity: 0.9;
+   border-radius: 10px;
+
+}
+.navbar ul{
+    
+    /* margin-left: 200px;
+    margin-right: 100px; */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+    
+
+}
+.navbar li{
+    position: relative;
+    /* justify-content: space-between; */
+    
+    padding: 10px 0 10px 30px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    font-size:larger; /*optional */
+    color:#fff;
+    transition: 0.3s;
+}
+.search input{
+    cursor: pointer;
+    float: bottom;
+    position: absolute;
+    width: 70%;
+    bottom: 8%;
+    left: 10%;
+    border: none;
+    border: solid rgb(41, 139, 174);
+    border-radius: 15px;
+    background-color: rgb(56, 30, 30);
+    opacity: 0.9;
+    color: #fff;
+  padding: 8px;
+  font-size: 16px;
+  text-align:left;
+}
+.imgContainer img{
+    /* opacity: 0.9; */
+    /* padding-top: 90px; */
+    
+     width: 100%;
+    height: 900px;
+   
+} 
+#tf{
+    text-align: center;
+    position: absolute;
+  top: 270pt;
+  left: 30px;
+  /* background: #004469;
+background: linear-gradient(0deg, rgba(0, 68, 105, 1) 0%, rgba(167, 195, 214, 1) 100%); */
+  color: #fff;
+  font-size: xx-large;
+}
+
+.container-2{
+    border:none;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 0px;
+    height: 650px;
+    width: 80em;
+    text-align: left;
+    overflow: auto;   /* ek hi box ke andr se or scroll hoga*/
+}
+#c2-text{
+    text-align: left;
+    padding-left: 10px;
+    
+
+
+}
+#block{
+    /* border:solid rgb(41, 139, 174);         use shaddow*/   
+    border: none;
+    border-radius: 15px;
+    background-color:#fff;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    display: inline-block; /* line by line set hoga apne parent box ke andr*/
+    /* border:solid #0093AF; */
+    margin: 20px;
+    cursor: pointer;
+    margin-bottom: 0px;
+
+}
+#block:hover{
+    transition: 0.5s;     /* hil kyu rha h fixed kaise hoga page me*/
+    border:solid rgb(41, 139, 174);
+}
+
+#b-img{
+    background-color: aliceblue;
+    border:solid rgb(153, 249, 249);
+    width:100px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+#b-text{
+    padding-top: 10%;
+    /* border:solid #0093AF; */
+    text-align: center;
+    margin-top: 0;
+}
+
+.doctor-appoint-section{
+    border: solid darkcyan;
+    margin-left: 10%;
+    max-width: 75%;
+    padding: 17px;
+    /* height: 800px; */
+    display:inline-block;
+    text-align: left;
+    text-align: justify;
+
+    
+    
+
+}
+#ds-block{
+    
+    width: 240px;
+    height: 370px;
+    display: inline-block;
+    /* border:solid #007dba; */
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #f3fbff;
+    margin: 10px;
+    /* box-shadow: #c7d2d8;  kam nhi kr rha*/
+}
+#ds-block-1{
+    /* border: solid darkgreen; */
+    border-radius: 15px;
+    width: 220px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+#ds-block-2{
+    display: flex;
+    justify-content: space-between;
+}
+#ds-block-1 img{
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+}
+#ds-block-2 img{
+    width: 40px;
+    background-color: #ffce42;
+    border-radius:50%;
+}
+#ds-block-2 button{
+    padding: 0px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+    
+}
+
+
+.container-3{
+    /* border: solid salmon; */
+    max-width: 1200px;
+
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px;
+}
+.container-3 h1{
+
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+#description{
+    /* color: #444; */
+      margin-bottom: 30px;
+      /* font-size: 32px; */
+
+}
+#faq{
+    background-color: #fff;
+    /* border:solid #0093AF; */
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+}
+/*
+    for spacing
+    display:flex;
+    justify-contant:space-between;
+*/
+#faq:hover {
+      background-color: #f3fbff;
+
+}
+#faq-icon {
+      font-size: 24px;
+      color: #007dba;
+      /* padding-left: px; */
+       /* position: absolute;
+      right: 500px;  */
+}
+.callback-section{
+    background: #020024;
+    background: linear-gradient(1deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 24%, rgba(0, 212, 255, 1) 95%);
+    box-shadow: #0093AF;
+    border: solid aqua;
+    padding: 30px;
+    margin:100px ;
+    /* color: #fff; */
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.callback-form {
+    max-width: 600px;
+}
+.callback-form h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+}
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.form-row input{
+    border:solid #007dba;
+    border-radius: 5px;
+    flex: 1; /*pura line cover magic*/
+    font-size: 14px;
+}
+
+.nurse-img {
+    max-height: 200px;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+}
+.resend {
+    color: #ffce42;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.submit-button {
+      width: 100%;
+      background-color: #ffce42;
+      color: #000;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.otp-button{
+    width: 100%;
+    background-color: #ffce42;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

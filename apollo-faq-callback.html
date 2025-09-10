@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>City Hospitals Ranchi FAQ & Callback</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f0fafd;
+      color: #003b5c;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    p.description {
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    .faq {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      margin-bottom: 10px;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .faq:hover {
+      background-color: #f3fbff;
+    }
+
+    .faq-icon {
+      font-size: 24px;
+      color: #007dba;
+    }
+
+    .faq-text {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .callback-section {
+      background-color: #007dba;
+      padding: 30px;
+      color: #fff;
+      border-radius: 0 0 20px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .callback-form {
+      max-width: 600px;
+    }
+
+    .callback-form h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    input {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      flex: 1;
+      font-size: 14px;
+    }
+
+    .otp-button {
+      background-color: #ffce42;
+      color: #000;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .submit-button {
+      width: 100%;
+      background-color: #ffce42;
+      color: #000;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .resend {
+      color: #ffce42;
+      font-size: 14px;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .nurse-img {
+      max-height: 200px;
+      margin-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .callback-section {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nurse-img {
+        margin-top: 20px;
+        align-self: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Frequently Asked Questions</h1>
+    <p class="description">Find answers to common questions about our services, treatments, appointments, and patient care options to help you make informed health decisions.</p>
+
+    <div class="faq"><span class="faq-text">How can I book an appointment at City Hospitals?</span><span class="faq-icon">➕</span></div>
+    <div class="faq"><span class="faq-text">Can I seek an appointment with a specialist at City Hospitals even if I don’t have a local referral?</span><span class="faq-icon">➕</span></div>
+    <div class="faq"><span class="faq-text">Does City Hospitals offer second opinions or online consultations?</span><span class="faq-icon">➕</span></div>
+    <div class="faq"><span class="faq-text">What type of information do I need to provide before booking a medical appointment?</span><span class="faq-icon">➕</span></div>
+    <div class="faq"><span class="faq-text">Will I be informed about the cost of treatment and duration of stay at Apollo Hospitals?</span><span class="faq-icon">➕</span></div>
+    <div class="faq"><span class="faq-text">What are the visiting hours and policies for patients’ families?</span><span class="faq-icon">➕</span></div>
+    <div class="faq"><span class="faq-text">Are international patients provided assistance with travel, visas, and accommodation?</span><span class="faq-icon">➕</span></div>
+  </div>
+
+  <div class="callback-section">
+    <div class="callback-form">
+      <h2>Could not find what you are looking for?<br>Request a Callback</h2>
+      <div class="form-row">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Mobile Number">
+        <button class="otp-button">Send OTP</button>
+      </div>
+      <div class="form-row">
+        <input type="text" placeholder="Enter OTP">
+        <button class="submit-button">Submit</button>
+      </div>
+      <p class="resend">Resend OTP</p>
+    </div>
+    <img src="apollo-faq-callback.html" alt="nurse" class="nurse-img">
+  </div>
+
+</body>
+</html>

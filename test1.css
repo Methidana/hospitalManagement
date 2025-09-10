@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: calc(25% - 20px); /* Adjust the width and margin as needed */
+}
+
+.card img.icon {
+    width: 50px; /* Set an appropriate size for the icon */
+    height: 50px; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    margin: 0; /* Remove margin for a cleaner look */
+}
+   
